@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import styled from "styled-components";
 // import './App.css';
 
@@ -32,6 +31,19 @@ const Wrapper = styled.section`
 //   border: 2px solid palevioletred;
 //   border-radius: 3px;
 // `;
+//
+// function App() {
+//   return (
+//       <Wrapper>
+//         <Title>
+//           Hello React Components
+//           <br/>
+//           <Button>Normal</Button>
+//           <Button primary>Primary</Button>
+//         </Title>
+//       </Wrapper>
+//   );
+
 
 //----------------
 // Extend styles in styled components
@@ -50,18 +62,7 @@ const TomatoButton = styled(Button)`
   color: tomato;
   border-color: tomato;
 `;
-//
-// function App() {
-//   return (
-//       <Wrapper>
-//         <Title>
-//           Hello React Components
-//           <br/>
-//           <Button>Normal</Button>
-//           <Button primary>Primary</Button>
-//         </Title>
-//       </Wrapper>
-//   );
+
 function App() {
   return (
       <Wrapper>
